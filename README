@@ -1,0 +1,22 @@
+==================================
+Name: Selenium IDE: Flow Control
+Version: 1.0
+Requirements: Selenium IDE v1.0.4
+==================================
+
+NOTE:
+This is a plugin for Selenium IDE incorporating the flow control extension 
+available at http://wiki.openqa.org/display/SEL/flowControl and 
+http://51elliot.blogspot.com/2008/02/selenium-ide-goto.html
+
+IMPORTANT:
+This plugin requires Selenium IDE 1.0.4 or later. At the current time this 
+version is not released, however an experimental version can currently be found 
+on Adam Goucher's site at http://adam.goucher.ca/selenium/
+
+CREDITS:
+* Andrey Yegorov - Created the original flow control extension
+* Daniel Deridder - Modified the original extension for Selenium IDE
+* Adam Goucher - Author of the Selenium IDE plugin API 
+* Dave Hunt - All I did was turn the extension into a plugin
+ 
