@@ -7,6 +7,7 @@
     <script type="application/x-javascript" src="chrome://selenium-ide/content/api.js"/>
     <html:script type="application/javascript">
         var ide_api = new API();
+        ide_api.addPlugin("flow-control@dave.hunt");
         ide_api.addPluginProvidedUserExtension("chrome://flowcontrol/content/extensions/goto-sel-ide.js");
     </html:script>
 </overlay>
