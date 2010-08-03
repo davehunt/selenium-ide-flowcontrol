@@ -1,6 +1,6 @@
 ==================================
-Name: Selenium IDE: Flow Control
-Version: 1.0.1
+Name: Flow Control
+Version: 1.0.2
 Requirements: Selenium IDE v1.0.5
 ==================================
 
@@ -20,7 +20,7 @@ To build on Windows you will need 7-Zip and Robocopy
 
 CREDITS:
 * Andrey Yegorov - Created the original flow control extension
-* Daniel Deridder - Modified the original extension for Selenium IDE
+* Darren DeRidder - Modified the original extension for Selenium IDE
 * Adam Goucher - Author of the Selenium IDE plugin API 
 * Dave Hunt - All I did was turn the extension into a plugin
  

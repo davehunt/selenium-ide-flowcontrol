@@ -1,6 +1,4 @@
-content flowcontrol  chrome/content/
-
-locale  flowcontrol  en-US chrome/locale/en-US/
+content flowcontrol  content/
 
 # custom extension(s)
 overlay chrome://selenium-ide/content/selenium-ide-overlay.xul chrome://flowcontrol/content/extensions/extension-loader.xul

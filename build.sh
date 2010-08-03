@@ -18,7 +18,7 @@ cp -v -R locale $TMP_DIR/chrome
 cp -v -R skin $TMP_DIR/chrome
 cp -v -R defaults $TMP_DIR
 cp -v install.rdf $TMP_DIR
-cp -v chrome.manifest $TMP_DIR
+cp -v chrome.manifest.production $TMP_DIR/chrome.manifest
 
 # generate the XPI file
 cd $TMP_DIR
