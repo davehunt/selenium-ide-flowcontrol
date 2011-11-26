@@ -24,8 +24,10 @@ copy chrome.manifest.production %TMP_DIR%\chrome.manifest
 rem generate the XPI file
 cd %TMP_DIR%
 echo "Generating %APP_NAME%.xpi..."
+echo "(Please ensure that 7z.exe can be found from here)"
 
-"c:\program files\7-zip\7z.exe" a -r -y -tzip ../%APP_NAME%.zip *
+rem "c:\program files\7-zip\7z.exe" a -r -y -tzip ../%APP_NAME%.zip *
+7z.exe a -r -y -tzip ../%APP_NAME%.zip *
 
 cd %ROOT_DIR%
 rename %APP_NAME%.zip %APP_NAME%.xpi

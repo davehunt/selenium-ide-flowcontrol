@@ -4,8 +4,8 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>flow-control@dave.hunt</em:id>
     <em:name>Flow Control</em:name>
-    <em:version>1.0.3</em:version>
-    <em:creator>Dave Hunt, Andrey Yegorov, Darren DeRidder</em:creator>
+    <em:version>1.0.4</em:version>
+    <em:creator>Dave Hunt, Andrey Yegorov, Darren DeRidder, Martin "Hasan" Bramwell</em:creator>
     <em:description>A flow control plugin for Selenium-IDE</em:description>
     <em:type>2</em:type> <!--Type extension-->
     
@@ -13,7 +13,7 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
         <em:minVersion>1.5</em:minVersion>
-        <em:maxVersion>4.0.*</em:maxVersion>
+        <em:maxVersion>8.0.*</em:maxVersion>
       </Description>
     </em:targetApplication>
     
